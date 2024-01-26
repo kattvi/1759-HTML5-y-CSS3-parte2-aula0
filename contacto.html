@@ -9,7 +9,7 @@
    <body>
         <header>
             <div class="caja">
-                <h1><img src="imagenes/imagenes/logo.png"></h1>
+                <h1><img src="imagenes/imagenes/logo.png" alt="logo Barberia"></h1>
                <nav>
                     <ul>
                        <li><a href="index.html">Home</a></li>
@@ -17,19 +17,50 @@
                        <li><a href="Contacto.html">Contacto</a></li>
                    </ul>
                </nav>
-        </div>
+       
+    </div>
        </header>
        <main>
         <form>
             <label for="nombreapellido"> Nombre y Apellido </label>
-            <input type="text" id="nombreapellido">
+            <input type="text" id="nombreapellido" class="input-padron" requiered>
 
             <label for="correoelectronico"> correo electronico</label>
-            <input type="text" id="correoelectronico">
+            <input type="email" id="correoelectronico" class="input-padron" requiered
+            placeholder="email@dominio.com">
 
             <label for="telefono"> telefono</label>
-            <input type="text" id="telefono">
+            <input type="tel" id="telefono" class="input-padron" requiered 
+            placeholder="(xxx) xxxx xxxx">
 
+            <label for="mensaje"> mensaje </label>
+            <textarea cols="70" rows=" 10" id="mensaje" class="input-padron" requiered> </textarea>
+
+     <fieldset>
+                <p> Como le gustaria que lo contactemos </p>
+
+                <label for="radio-email"><input type="radio" name="Contacto" 
+                    value="email" id="radio-email"> Email</label>
+    
+                <label for="radio-telefono"> <input type="radio"  name="Contacto"  value="telefono" id="radio-telefono"> Telefono</label>
+            
+                <label for="radio-whatsapp">  <input type="radio" name="Contacto"  value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
+              
+     </fieldset>
+
+        <fieldset>
+             <select>
+                <legend> En que horario prefiere ser atendido? </legend>
+               
+                <option>Mañana</option>
+                <option>Tarde</option>
+                <option>Noche</option>
+            </select>
+        </fieldset>
+
+            <label class="checkbox"> <input type="checkbox" checked> Le gustaria recibir novedades? </label>
+
+           
             <input type="submit" value="Enviar Formulario"> 
         </form>
 
@@ -37,7 +68,7 @@
 
 
             <footer>
-                <img src="imagenes/imagenes/logo-blanco.png">
+                <img src="imagenes/imagenes/logo-blanco.png" alt="logo blanco">
                 <p class="Copyright"> &copy; Copyright Barberia Alura - 2024 </p>
             </footer>
     
@@ -46,4 +77,4 @@
     
     
     
-    </html>, 
+    </html>
