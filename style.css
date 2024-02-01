@@ -1,7 +1,10 @@
+body{
+  font-family: "Montserrat", sans-serif;
+}
+
 header {
     background-color: #BBBBBB;
     padding: 20px 0;
-
 }
 
 .caja{
@@ -9,6 +12,7 @@ header {
     position: relative;
     margin: 0 auto;
 }
+
 nav {
     position: absolute;
     top: 110px;
@@ -26,24 +30,21 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
-
 }
 
 nav a:hover{
     color:#c78c19;
     text-decoration: underline;
-
 }
 
 .productos{
     width: 940px;
     margin: auto 0;
-    padding: 50px;
-    
+    padding: 50px; 
 }
+
 .productos li{
     display: inline-block;
-    
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
@@ -53,14 +54,16 @@ nav a:hover{
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
-
 }
+
 .productos li:hover{
     border-color: #c78c19;
 }
+
 .productos li:active{
     border-color: aquamarine;
 }
+
 .productos h2{
     font-size: 30px;
     font-weight:bold ;
@@ -84,8 +87,8 @@ footer{
     text-align: center;
     background: url(imagenes/imagenes/bg.jpg);
     padding: 40px;
-
 }
+
 .Copyright{
     color: #BBBBBB;
     font-size: 13px;
@@ -99,7 +102,6 @@ main{
 
 form{
     margin: 40px 0;
-
 }
 
 form label, form legend{
@@ -113,9 +115,41 @@ form label, form legend{
     margin: 0 0 20px;
     padding: 10 px 25px;
     width: 50%;
-
 }
 
 .checkbox{
     margin:  20px 0 ;
+}
+
+.banner{
+    width: 100%;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagenDiferenciales{
+    width: 60%;
 }
