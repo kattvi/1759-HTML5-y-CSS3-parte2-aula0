@@ -136,6 +136,9 @@ form label, form legend{
     margin: 0 0 1em;
     clear: left;
 }
+.titulo-principal:first-letter{
+    font-weight: bold;
+}
 
 .principal p {
     margin: 0 0 1em;
@@ -199,4 +202,23 @@ form label, form legend{
 
 .imagenDiferenciales{
     width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px black;
+    
 }
+.imagenDiferenciales:hover{
+    opacity: 0.3;
+}
+
+@media screen and (max-width:480px) {
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static
+    };
+    .caja, .principal,.mapa-contenido, .contenido-diferenciales, .video{width: auto;}
+    }
+    
+    
+    
